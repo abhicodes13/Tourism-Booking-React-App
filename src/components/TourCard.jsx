@@ -29,7 +29,7 @@ const TourCard = () => {
       }}
            marginTop={3}>
           
-          <Rating name="read-only" value={4.5} precision={0.5} readOnly />
+          <Rating name="read-only" value={4.5} precision={0.5} readOnly size='small' />
           <Typography variant='body2' component='p' marginLeft={0.5}>
             4.5
           </Typography>
