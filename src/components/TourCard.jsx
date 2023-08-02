@@ -10,7 +10,7 @@ const TourCard = ({tour}) => {
     <Grid item xs={4}>
     <Paper elevation={1}>
     <img src={tour.image} alt="#" className='img'/>
-        <Box paddingX={1}>
+        <Box paddingX={2}>
       <Typography variant='subtitle1' component='h2'>
         {tour.name}
       </Typography>
