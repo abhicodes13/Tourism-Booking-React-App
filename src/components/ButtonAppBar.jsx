@@ -25,6 +25,7 @@ export default function ButtonAppBar() {
             Amazing Destinations
           </Typography>
           <Button color="inherit">Book Now</Button>
+
         </Toolbar>
       </AppBar>
     </Box>

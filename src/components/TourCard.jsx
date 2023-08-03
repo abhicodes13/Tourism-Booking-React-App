@@ -2,7 +2,7 @@ import Paper from '@mui/material/Paper';
 import Box from '@mui/material/Box';
 import Grid from '@mui/material/Grid';
 import Typography from '@mui/material/Typography';
-import { AccessTime } from '@mui/icons-material';
+import { AccessTime} from '@mui/icons-material';
 import Rating from '@mui/material/Rating';
 import Button from '@mui/material/Button';
 
@@ -43,7 +43,7 @@ const TourCard = ({ tour }) => {
             <Typography variant='h6' component='h2'>
               From ${tour.price}
             </Typography>
-                    <Button  variant='text'>Book Now</Button>
+            <Button variant='text' size='small' >Book Now</Button>
           </Box>
 
         </Box>
