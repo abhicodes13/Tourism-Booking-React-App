@@ -45,7 +45,6 @@ const TourCard = ({ tour }) => {
             </Typography>
             <Button variant='text' size='small' >Book Now</Button>
           </Box>
-
         </Box>
       </Paper>
     </Grid>
